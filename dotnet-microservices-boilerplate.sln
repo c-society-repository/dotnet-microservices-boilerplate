@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{315F25D6-6FFC-4A5D-BF53-2F13490C16DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D844532E-0C16-4658-AE81-66F011C70D3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C.SocietyApi", "src\C.SocietyApi\C.SocietyApi.csproj", "{993D9115-AD4E-4E2B-8D04-461068B9EE17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{993D9115-AD4E-4E2B-8D04-461068B9EE17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{993D9115-AD4E-4E2B-8D04-461068B9EE17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{993D9115-AD4E-4E2B-8D04-461068B9EE17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{993D9115-AD4E-4E2B-8D04-461068B9EE17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{993D9115-AD4E-4E2B-8D04-461068B9EE17} = {315F25D6-6FFC-4A5D-BF53-2F13490C16DA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79930815-73CF-4A55-BE57-9C362FC62F54}
+	EndGlobalSection
+EndGlobal
