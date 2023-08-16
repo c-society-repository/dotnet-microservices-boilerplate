@@ -14,7 +14,3 @@ jobs:
     uses: c-society-repository/gitworkflow-dotnet/.github/workflows/build.yml@main
     secrets: inherit
 
-    # Permission can be added at job level or workflow level    
-permissions:
-      id-token: write
-      contents: read
