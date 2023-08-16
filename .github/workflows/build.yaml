@@ -13,3 +13,4 @@ on:
 jobs:
   dotnet-build:
     uses: c-society-repository/gitworkflow-dotnet/.github/workflows/build.yml@main
+    secrets: inherit
