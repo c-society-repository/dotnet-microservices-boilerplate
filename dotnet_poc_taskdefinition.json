@@ -1,0 +1,48 @@
+{
+    "taskDefinitionArn": "arn:aws:ecs:us-east-1:544665203047:task-definition/dotnetapi:1",
+    "containerDefinitions": [
+        {
+            "name": "dotnetapi",
+            "image": "544665203047.dkr.ecr.us-east-1.amazonaws.com/csocietyrepository:5d52f27d45cfe6af2372f003af34f0aa14aea53c",
+            "cpu": 0,
+            "portMappings": [],
+            "essential": true,
+            "environment": [],
+            "mountPoints": [],
+            "volumesFrom": []
+        }
+    ],
+    "family": "dotnetapi",
+    "executionRoleArn": "arn:aws:iam::544665203047:role/ecsTaskExecutionRole",
+    "networkMode": "awsvpc",
+    "revision": 1,
+    "volumes": [],
+    "status": "ACTIVE",
+    "requiresAttributes": [
+        {
+            "name": "com.amazonaws.ecs.capability.ecr-auth"
+        },
+        {
+            "name": "ecs.capability.execution-role-ecr-pull"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.docker-remote-api.1.18"
+        },
+        {
+            "name": "ecs.capability.task-eni"
+        }
+    ],
+    "placementConstraints": [],
+    "compatibilities": [
+        "EC2",
+        "FARGATE"
+    ],
+    "requiresCompatibilities": [
+        "EC2"
+    ],
+    "cpu": "1024",
+    "memory": "3072",
+    "registeredAt": "2023-08-16T01:03:19.609Z",
+    "registeredBy": "arn:aws:iam::544665203047:root",
+    "tags": []
+}

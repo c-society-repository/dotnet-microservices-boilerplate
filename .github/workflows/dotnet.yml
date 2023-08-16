@@ -13,13 +13,13 @@ on:
 permissions:
       id-token: write
       contents: read
-      
+
 env:
   AWS_REGION : us-east-1
   ECR_REPOSITORY: csocietyrepository
   ECS_SERVICE: DOTNETAPI                 # set this to your Amazon ECS service name
   ECS_CLUSTER: POC_CLUSTER                 # set this to your Amazon ECS cluster name
-  ECS_TASK_DEFINITION: dotnet_poc_taskdefinition # set this to the path to your Amazon ECS task definition
+  ECS_TASK_DEFINITION: dotnet_poc_taskdefinition.json # set this to the path to your Amazon ECS task definition
   CONTAINER_NAME: DOTNETAPI           # set this to the name of the container in the
 
 jobs:
